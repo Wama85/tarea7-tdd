@@ -1,0 +1,31 @@
+#contenido{
+    width: 50%;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+input[type=number]{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+input[type=submit]{
+    background-color: rgb(180, 87, 11);
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px;
+    color: white;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background-color: rgb(15, 103, 175);
+}
+#resultado-div{
+    border-radius: 10px;
+    border: 1px solid rgb(9, 97, 112);
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
