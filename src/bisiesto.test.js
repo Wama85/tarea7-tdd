@@ -1,7 +1,7 @@
-import sumar from "./bisiesto.js";
+import bisiesto from "./bisiesto.js";
 
-describe("Sumar", () => {
-  it("deberia sumar dos numeros", () => {
-    expect(sumar(3, 2)).toEqual(5);
+describe("AÑO BISIESTO", () => {
+  it("Debería mostrar todos los años divisibles entre 400 - BISIESTO", () => {
+    expect(bisiesto(2000)).toEqual(true);
   });
 });

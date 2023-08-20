@@ -22,6 +22,7 @@ input[type=submit]:hover{
     background-color: rgb(15, 103, 175);
 }
 #resultado-div{
+    margin-top: 20px;
     border-radius: 10px;
     border: 1px solid rgb(9, 97, 112);
     padding: 20px;
