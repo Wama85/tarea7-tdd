@@ -1,5 +1,5 @@
-function bisiesto(a, b) {
-  return a + b;
+function bisiesto(a) {
+  return a ;
 }
 
 export default bisiesto;

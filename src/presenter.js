@@ -1,15 +1,14 @@
-import sumar from "./bisiesto";
+import bisiesto from "./bisiesto";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+const year = document.querySelector("#txtyear");
+const resultado = document.querySelector("#resultado-div");
+const btnmostrar=document.querySelector("#bisiesto-button");
 
-form.addEventListener("submit", (event) => {
+btnmostrar.addEventListener("click", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const txtyear = Number.parseInt(year.value);
 
-  div.innerHTML = "<p>" + bisiesto(firstNumber, secondNumber) + "</p>";
+
+  resultado.innerHTML = "<p>" + bisiesto(txtyear) + "</p>";
 });
